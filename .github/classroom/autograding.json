@@ -9,6 +9,16 @@
       "comparison": "included",
       "timeout": 3,
       "points": 1
+    },
+    {
+      "name": "CheckVersion",
+      "setup": "javac -version",
+      "run": "java -version",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
     }
   ]
 }
