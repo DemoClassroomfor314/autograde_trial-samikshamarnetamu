@@ -1,14 +1,13 @@
-public class Fact {
+import java.util.Scanner;
+   public class Fact {
+      public static void main(String args[]){
+         int i, factorial=1, num;
+         Scanner sc = new Scanner(System.in);
+         number = sc.nextInt();
 
-    public static void main(String[] args) {
-
-        int num = 10;
-        long factorial = 1;
-        for(int i = 1; i <= num; ++i)
-        {
-            // factorial = factorial * i;
+         for(i = 1; i<=number; i++) {
             factorial *= i;
-        }
-        System.out.printf("Factorial of %d = %d", num, factorial);
-    }
-}
+         }
+         System.out.println("Factorial of the given number is:: "+factorial);
+      }
+   }
