@@ -1,7 +1,7 @@
 import java.util.Scanner;
    public class Fact {
       public static void main(String args[]){
-         int i, factorial=1, num;
+         int i, factorial=1, number;
          Scanner sc = new Scanner(System.in);
          number = sc.nextInt();
 
