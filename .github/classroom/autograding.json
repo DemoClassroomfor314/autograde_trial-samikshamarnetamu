@@ -2,13 +2,13 @@
   "tests": [
     {
       "name": "Factorial",
-      "setup": "",
-      "run": "gradle test",
+      "setup": "\"$JAVA_HOME_8_X64\"/bin/javac Factorial.java",
+      "run": "\"$JAVA_HOME_8_X64\"/bin/java Factorial",
       "input": "",
-      "output": "",
+      "output": "3628800",
       "comparison": "included",
-      "timeout": 10,
-      "points": null
+      "timeout": 3,
+      "points": 1
     }
   ]
 }
