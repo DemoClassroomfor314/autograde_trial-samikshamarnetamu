@@ -12,7 +12,7 @@
     },
     {
       "name": "Factorial-0",
-      "setup": "javac fact.java",
+      "setup": "javac Fact.java",
       "run": "java Fact",
       "input": "0",
       "output": "1",
