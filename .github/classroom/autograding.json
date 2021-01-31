@@ -4,7 +4,7 @@
       "name": "Factorial",
       "setup": "javac Fact.java",
       "run": "java Fact",
-      "input": "",
+      "input": "10",
       "output": "3628800",
       "comparison": "included",
       "timeout": 3,
