@@ -3,7 +3,7 @@
     {
       "name": "Factorial",
       "setup": "javac Fact.java",
-      "run": "java Factorial",
+      "run": "java Fact",
       "input": "",
       "output": "3628800",
       "comparison": "included",
