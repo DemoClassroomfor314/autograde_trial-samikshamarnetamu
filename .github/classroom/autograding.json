@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Factorial",
-      "setup": "\"$JAVA_HOME_8_X64\"/bin/javac Fact.java",
-      "run": "\"$JAVA_HOME_8_X64\"/bin/java Fact",
+      "setup": "javac Fact.java",
+      "run": "java Factorial",
       "input": "",
       "output": "3628800",
       "comparison": "included",
