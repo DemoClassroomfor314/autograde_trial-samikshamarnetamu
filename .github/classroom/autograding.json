@@ -19,6 +19,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "Factorial",
+      "setup": "javac Fact.java",
+      "run": "java Fact",
+      "input": "10",
+      "output": "3628800",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
     }
   ]
 }
