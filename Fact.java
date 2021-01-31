@@ -9,9 +9,14 @@ import java.util.Scanner;
             number = sc.nextInt();
          else
             number = 0;
-         for(i = 1; i<=number; i++) {
+         if (number ==0){
+            System.out.println("Factorial of the given number is:: 1");
+         }
+         else{
+            for(i = 1; i<=number; i++) {
             factorial *= i;
          }
          System.out.println("Factorial of the given number is:: "+factorial);
+         }
       }
    }
