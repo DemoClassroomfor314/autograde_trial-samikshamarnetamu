@@ -1,16 +1,6 @@
 {
   "tests": [
     {
-      "name": "Factorial",
-      "setup": "javac Fact.java",
-      "run": "java Fact",
-      "input": "10",
-      "output": "3628800",
-      "comparison": "included",
-      "timeout": 3,
-      "points": 1
-    },
-    {
       "name": "CheckVersion",
       "setup": "javac -version",
       "run": "java -version",
