@@ -1,13 +1,33 @@
 {
   "tests": [
     {
-      "name": "Factorial",
-      "setup": "",
-      "run": "gradle test",
+      "name": "CheckVersion",
+      "setup": "javac -version",
+      "run": "java -version",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Factorial-0",
+      "setup": "javac Fact.java",
+      "run": "java Fact",
+      "input": "0",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Factorial",
+      "setup": "javac Fact.java",
+      "run": "java Fact",
+      "input": "10",
+      "output": "3628800",
+      "comparison": "included",
+      "timeout": 1,
       "points": null
     }
   ]
